@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gardio"
+version = "0.1.0"
+description = "Frida gardio"
+authors = ["Esmaeel Moustafa <esmaeel.moustafa@thermondo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = "^4.29.0"
+frida = "^16.2.1"
+gradio-log = "^0.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
